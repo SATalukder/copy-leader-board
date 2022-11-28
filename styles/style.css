@@ -36,6 +36,69 @@ hr {
 
 }
 
+/*-----------------------
+           header styles
+--------------------------*/
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+nav {
+    width: 1440px;
+    background-color: #562EFF;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+span a {
+    color: #FFFFFF;
+
+
+}
+
+.logo-img .head-info {
+    font-size: 24px;
+
+
+}
+
+.logo-img .head-detail {
+    font-size: 16px;
+    /* line-height: 36px; */
+}
+
+
+nav .logo-info img {
+    width: 40px;
+    height: 51px;
+    /* padding-right: 55px; */
+}
+
+.logo-info a {
+    margin-right: 16px;
+    /* display: flex; */
+
+}
+
+
+
+nav .profile-info img {
+    width: 51px;
+    height: 51px;
+}
+
+.profile-info a {
+    margin-right: 36px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 /* ---------------------
              Top player
 ----------------- */
